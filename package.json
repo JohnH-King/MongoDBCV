@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/JohnH-King/MongoDBCV.git"
   },
-  "author": "",
+  "author": "John King",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JohnH-King/MongoDBCV/issues"
