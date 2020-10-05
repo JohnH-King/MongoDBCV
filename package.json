@@ -1,25 +1,26 @@
 {
-  "name": "heroku-clean-comments",
+  "name": "mongodbcv",
   "version": "1.0.0",
-  "description": "does MongoDB",
+  "description": "CV comment commit",
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.7",
-    "morgan": "^1.10.0"
-  },
-  "engines": {
-    "node": "^12.18.4"
+    "morgan": "^1.10.0",
+    "mongoose": "^5.10.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "run test.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [
-    "heroku"
-  ],
-  "author": "John King",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnH-King/MongoDBCV.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dev": "nodemon server.js -e js,html",
+  "bugs": {
+    "url": "https://github.com/JohnH-King/MongoDBCV/issues"
+  },
+  "homepage": "https://github.com/JohnH-King/MongoDBCV#readme"
 }
