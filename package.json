@@ -1,0 +1,24 @@
+{
+  "name": "heroku-clean-comments",
+  "version": "1.0.0",
+  "description": "does MongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "^12.18.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run test.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "John King",
+  "license": "ISC"
+}
