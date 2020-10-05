@@ -4,7 +4,7 @@ var fs = require('fs');
 
 
 const host = '0.0.0.0';
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3300;
 
 const server = http.createServer(function(req, res) {
   fs.readFile('hindex.html', function(err, data) {
@@ -17,4 +17,3 @@ const server = http.createServer(function(req, res) {
 server.listen(port, () => {
 console.log("App listening on ${port}")
 });
-
