@@ -20,5 +20,6 @@
     "heroku"
   ],
   "author": "John King",
-  "license": "ISC"
+  "license": "ISC",
+  "dev": "nodemon server.js -e js,html",
 }
