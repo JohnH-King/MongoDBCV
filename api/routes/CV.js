@@ -27,12 +27,10 @@ router.post('/', (req, res, next) => {
     console.log(result);
   })
   .catch(err => console.log(err));
-
     res.status(201).json({
         message: 'Handling POST requests to /CV',
         createdItem: cvitem
     });
-    alert("You created a javascript function");
 });
 
 router.get('/:CVId', (req, res, next) => {
