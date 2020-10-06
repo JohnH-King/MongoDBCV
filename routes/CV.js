@@ -27,9 +27,7 @@ router.post('/', (req, res, next) => {
     console.log(result);
   })
   .catch(err => console.log(err));
-  CVItems.collection('defaultpost').insert({myfield: name}, function(err.doc){
-    if(err) throw err;
-  });
+  alert('Thank you for your feedback!');
     res.status(201).json({
         message: 'Handling POST requests to /CV',
         createdItem: cvitem
